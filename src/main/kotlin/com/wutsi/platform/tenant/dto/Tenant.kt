@@ -11,7 +11,7 @@ public data class Tenant(
   public val currency: String = "",
   public val numberFormat: String = "",
   public val monetaryFormat: String = "",
-  public val limits: List<Limits> = emptyList(),
+  public val limits: Limits = Limits(),
   public val countries: List<String> = emptyList(),
   public val languages: List<String> = emptyList(),
   public val logos: List<Logo> = emptyList(),
