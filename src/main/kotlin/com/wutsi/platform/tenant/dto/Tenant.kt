@@ -14,6 +14,7 @@ public data class Tenant(
   public val numberFormat: String = "",
   public val monetaryFormat: String = "",
   public val dateFormat: String = "",
+  public val timeFormat: String = "",
   public val dateTimeFormat: String = "",
   public val limits: Limits = Limits(),
   public val countries: List<String> = emptyList(),
