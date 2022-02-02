@@ -22,5 +22,6 @@ public data class Tenant(
   public val languages: List<String> = emptyList(),
   public val logos: List<Logo> = emptyList(),
   public val mobileCarriers: List<MobileCarrier> = emptyList(),
-  public val fees: List<Fee> = emptyList()
+  public val fees: List<Fee> = emptyList(),
+  public val product: Product = Product()
 )
