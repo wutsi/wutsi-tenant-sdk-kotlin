@@ -10,6 +10,7 @@ public data class Tenant(
   public val domainName: String = "",
   public val supportEmail: String = "",
   public val installUrl: String = "",
+  public val webappUrl: String = "",
   public val currency: String = "",
   public val currencySymbol: String = "",
   public val numberFormat: String = "",
